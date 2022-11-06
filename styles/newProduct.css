@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F5F5;
+    font-family: 'Raleway', sans-serif;
+}
+/* NAV */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    padding: 2.5rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.search{
+    margin-left: 1rem;
+    border-radius: 1rem;
+    width: 15rem;
+    height: 2rem;
+    padding: 0.5rem;
+    border: none;
+    background-color: #F5F5F5;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+
+}
+
+.button{
+    margin-right: 2rem;
+    color: #2A7AE4;
+    padding: 0.4rem;
+    border: 1px solid #2A7AE4;
+    text-decoration: none;
+}
+
+.form{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__title{
+    margin-bottom: 1.2rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.form__user{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input{
+    margin-bottom: 1rem;
+    width: 25rem;
+    height: 3rem;
+    border: none;
+    padding: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 0.4rem;
+    outline: none;
+    background-color: #fff;
+}
+
+.form__button{
+    border: none;
+    background-color:#2A7AE4 ;
+    padding: 1rem;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+/* CONTACTO */
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 3rem;
+    background-color: #EAF2FD;
+    flex-wrap: wrap;
+}
+
+.contacto__izquierda{
+    display: flex;
+    gap: 5rem;
+}
+
+.contacto__links{
+    list-style: none;
+}
+
+.contacto__link{
+    margin-bottom: 1rem;
+}
+
+.contacto__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto__form p{
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.contacto__form input{
+    width: 560px;
+    height: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 0.4rem;
+}
+
+.contacto__form textarea{
+    width: 560px;
+    height: 5rem;
+    margin-bottom: 1rem;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 0.4rem;
+}
+
+.contacto__form button{
+    width: 144px;
+    height: 3rem;
+    font-family: 'Raleway', sans-serif;
+    background-color: #2A7AE4;
+    border: none;
+    color: #fff;
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+}
+
+
+@media screen and (max-width:470px){
+    nav{
+        padding: 1.4rem;
+    }
+    .search{
+        display:none;
+    }
+    .logo{
+        margin-left: 0;
+    }
+    .logo__img{
+        width: 9rem;
+    }
+    .button{
+        font-size: 0.6rem;
+        padding: 0.4rem;
+    }
+    .icon{
+        margin-left: 0.5rem;
+        width: 1rem;
+    }
+    .form__title{
+        margin-top: 4rem;
+    }
+    .form__input{
+        width: 22rem;
+    }
+    .search{
+        display:none;
+    }
+    .contacto__izquierda{
+        flex-direction: column;
+        gap: 0;
+        text-align: center;
+    }
+     .contacto__form input{
+        width: 100%;
+        height: 3rem;
+    }
+    .contacto__form textarea{
+        width: 100%;
+        height: 4rem;
+    }
+     .contacto{
+        gap: 2rem;
+        margin-top: 4.5rem;
+    }
+    .contacto__izquierda{
+        flex-direction: column;
+        gap: 0;
+        text-align: center;
+    }
+     .contacto__form input{
+        width: 100%;
+        height: 3rem;
+    }
+    .contacto__form textarea{
+        width: 100%;
+        height: 4rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .form{
+        height: 55vh;
+    }
+    .logo{
+        margin-left: 0;
+        margin-right: 1rem;
+    }
+    .icon{
+        margin-left: 0.5rem;
+    }
+    .contacto__izquierda{
+        flex-direction: column;
+        gap: 0;
+        text-align: center;
+    }
+    .contacto__form input{
+        width: 100%;
+        height: 3rem;
+    }
+    .contacto__form textarea{
+        width: 100%;
+        height: 4rem;
+    }
+     .contacto{
+        gap: 5rem;
+        align-items: center;
+    }
+    
+}
