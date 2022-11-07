@@ -57,12 +57,13 @@ nav{
 
 .productos__link--color{
     color: #2A7AE4;
-    padding: 0.6rem;
+    padding: 0.8rem;
     background-color: #2A7AE4;
     text-decoration: none;
     color: #fff;
     margin-bottom: 0.5rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    border-radius: 0.4rem;
 }
 
 .productos__link{
@@ -160,6 +161,7 @@ nav{
     background-color: #2A7AE4;
     border: none;
     color: #fff;
+    border-radius: 0.4rem;
 }
 
 /* FOOTER */
@@ -175,11 +177,11 @@ footer{
 
 @media screen and (max-width:470px){
     nav{
-        padding: 1.4rem;
+        padding: 0.4rem;
     }
     .logo__img{
-        margin-right: 10rem;
-        width: 9rem;
+        margin-right: 13rem;
+        width: 7rem;
     }
     .icon{
         width: 1rem;
@@ -227,9 +229,6 @@ footer{
     .logo{
         margin-left: 0;
         margin-right: 1rem;
-    }
-    .icon{
-        margin-left: 0.5rem;
     }
     .contacto__izquierda{
         flex-direction: column;

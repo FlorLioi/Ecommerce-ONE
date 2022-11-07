@@ -82,6 +82,7 @@ nav{
     color: #fff;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
+    border-radius: 0.4rem;
 }
 
 /* CONTACTO */
@@ -147,6 +148,7 @@ nav{
     background-color: #2A7AE4;
     border: none;
     color: #fff;
+    border-radius: 0.4rem;
 }
 
 /* FOOTER */
@@ -162,14 +164,14 @@ footer{
 
 @media screen and (max-width:470px){
     nav{
-        padding: 1.4rem;
+        padding: 0.4rem;
     }
     .icon{
         width: 1rem;
     }
     .logo__img{
-        margin-right: 10rem;
-        width: 9rem;
+        margin-right: 13rem;
+        width: 7rem;
     }
     .form__input{
         width: 22rem;

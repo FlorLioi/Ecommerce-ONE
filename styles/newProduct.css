@@ -47,6 +47,7 @@ nav{
     padding: 0.4rem;
     border: 1px solid #2A7AE4;
     text-decoration: none;
+    border-radius: 0.4rem;
 }
 
 .form{
@@ -87,6 +88,7 @@ nav{
     color: #fff;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
+    border-radius: 0.4rem;
 }
 
 /* CONTACTO */
@@ -152,6 +154,7 @@ nav{
     background-color: #2A7AE4;
     border: none;
     color: #fff;
+    border-radius: 0.4rem;
 }
 
 /* FOOTER */
@@ -168,7 +171,7 @@ footer{
 
 @media screen and (max-width:470px){
     nav{
-        padding: 1.4rem;
+        padding: 0.4rem;
     }
     .search{
         display:none;
@@ -177,15 +180,17 @@ footer{
         margin-left: 0;
     }
     .logo__img{
-        width: 9rem;
+        width: 7rem;
     }
     .button{
         font-size: 0.6rem;
         padding: 0.4rem;
+        margin-right: 5rem;
     }
     .icon{
-        margin-left: 0.5rem;
         width: 1rem;
+        position: absolute;
+        left: 90%;
     }
     .form__title{
         margin-top: 4rem;
@@ -210,7 +215,6 @@ footer{
         height: 4rem;
     }
      .contacto{
-        gap: 2rem;
         margin-top: 4.5rem;
     }
     .contacto__izquierda{
