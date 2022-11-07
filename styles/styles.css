@@ -236,7 +236,8 @@ footer{
     }
     .icon{
         position: absolute;
-        left: 70%;
+        left: 90%;
+        width: 1rem;
     }
     .button{
         margin-right: 8rem;
